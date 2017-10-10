@@ -1,0 +1,15 @@
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\CookieBakery\CookieBakery\bin\Debug\CookieBakery.exe.config
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\CookieBakery\CookieBakery\bin\Debug\CookieBakery.exe
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\CookieBakery\CookieBakery\bin\Debug\CookieBakery.pdb
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\CookieBakery\CookieBakery\obj\Debug\CookieBakery.csprojResolveAssemblyReference.cache
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\CookieBakery\CookieBakery\obj\Debug\CookieBakery.exe
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\CookieBakery\CookieBakery\obj\Debug\CookieBakery.pdb
+C:\Users\marku\Desktop\CookieBakery\CookieBakery\bin\Debug\CookieBakery.exe.config
+C:\Users\marku\Desktop\CookieBakery\CookieBakery\obj\Debug\CookieBakery.exe
+C:\Users\marku\Desktop\CookieBakery\CookieBakery\obj\Debug\CookieBakery.pdb
+C:\Users\marku\Desktop\CookieBakery\CookieBakery\bin\Debug\CookieBakery.exe
+C:\Users\marku\Desktop\CookieBakery\CookieBakery\bin\Debug\CookieBakery.pdb
+C:\Users\marku\Desktop\CookieBakery\CookieBakery\obj\Debug\CookieBakery.csprojResolveAssemblyReference.cache
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\Innlevering PG3300\CookieBakery\CookieBakery\bin\Debug\CookieBakery.exe.config
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\Innlevering PG3300\CookieBakery\CookieBakery\obj\Debug\CookieBakery.exe
+C:\Users\danie\Dropbox\Skole\2_år_studie\PG3300_Software_Design\Innlevering PG3300\CookieBakery\CookieBakery\obj\Debug\CookieBakery.pdb

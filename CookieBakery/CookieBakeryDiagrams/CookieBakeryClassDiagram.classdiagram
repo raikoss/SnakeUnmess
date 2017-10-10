@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b4c9c696-0b2a-448f-9693-b4512c6afc03" name="CookieBakeryClassDiagram" linkedPackageId="4a6aad48-18b9-474c-9633-dca833d8dd2f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7f4b51d5-4d8d-40a2-981f-6551c02e3f95" name="Cookie" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e0e0b8af-6add-47d8-93fb-75d639a29612" />
+        <targetEnds>
+          <association Id="71a4eae6-1869-4c34-99fe-93918c6ab176" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f220dd55-7ab6-4d88-b074-125f11ef62bc" LastKnownName="CookieFactory" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fae07560-8ba6-494f-9c46-5be329acc8c7" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="de6c7210-e693-4603-ab3d-1547bf92492f" name="Lower" value="0">
+                      <elementDefinition Id="6bf9203f-b970-4b2d-8104-19a520750246" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="08686e75-e097-47e1-9ded-0e88942d5f2f" name="Upper" value="*">
+                      <elementDefinition Id="68c3076d-df43-4bc2-8bf1-2f5dd4a323f4" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="44559973-5a9d-43b5-88ae-16baf340d8d7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="16f2f215-642a-4805-82f5-87e2f23a5bd2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d8421185-fea6-4f86-9376-9c02a72dc0aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="293ccc73-8318-44c8-9c58-88cbbf7726e4" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="c7bb7d7d-d701-4040-9f60-f7c7ea60cff4" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f7f11480-e6e1-47d6-9f2e-55aa05276af1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c6cae0fb-6335-40f5-a3a1-89975022ef80" direction="Return" isUnique="false">
+                  <elementDefinition Id="ab620f47-c4d1-454c-946a-050fc527d252" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f189aebf-e0fe-4e25-8e3d-7e2d61fa5395" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f220dd55-7ab6-4d88-b074-125f11ef62bc" name="CookieFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="54ed16d4-8533-41c2-8358-6c768e057107" />
+        <targetEnds>
+          <association Id="5fcb9b0a-36fe-40cf-8fcf-e9d7fa479762" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8e62fca6-9ba0-429d-9689-217bfbcf4ae5" LastKnownName="Bakery" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f85e3900-bcc8-4239-bda6-33a962b07091" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a003d05b-f4f1-4b65-b743-88216c42d2fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="73764a97-2b6f-420c-a225-2b6936142132" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="81a13062-05ad-487f-a926-428a42ff2a60" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="154dfae0-19a2-46c0-adda-8d13935152e7" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="c7d68c3a-191b-4bb9-afb8-5fecb2aee206" name="CreateCookie" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ee1d64e3-47a6-4913-b3f8-97d122dc5de6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c45000bd-0066-40d3-ab05-e65bd304def7" direction="Return" isUnique="false">
+                  <elementDefinition Id="e8a4dafb-ae73-4ba9-af95-679a6bac8afe" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c0280f5a-b56e-45a8-a56f-08f5ff429ad5" LastKnownName="ICookie" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8e62fca6-9ba0-429d-9689-217bfbcf4ae5" name="Bakery" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8d8eb3fb-dee2-47af-943f-83367b54df0d" />
+        <targetEnds>
+          <association Id="0bd5b339-10e6-4fa1-bd36-47ecf432ae6c" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e813f0aa-9548-4c5d-b936-d819bd9b567c" LastKnownName="Main" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="37aa8a3e-bc92-4652-9677-692e19fd873f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0f8c54b9-44a7-4418-aad8-90fc78a70e0d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="331fc119-8643-430d-b242-970f99c61443" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f2916ebe-a5df-4e7a-98be-f8193af70f83" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be82ae4d-3c73-45a5-b93f-c1ee5d096ba1" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="0c0b893f-c222-49eb-8e2a-b5b24b06ed25" name="_finishedBaking" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8ea9628c-61fd-4829-9f09-88a3046e7ae1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8727e084-f5c8-4407-93b8-bdb9980726c1" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+          <property Id="b7e39215-6f30-4cd8-9ba1-fb2376b5d7d6" name="_cookiesToMake" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3f1fb5ea-bf5d-4538-824a-14b2c78efe8a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="aca8cfe8-8ef6-4fe9-87ac-021febc95717" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="56f5c4c8-e1fd-43aa-856a-4d4693f7e834" name="SellCookieTo" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9e8354e5-345a-4420-94b2-d5561c784704" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b80e3b6b-95dd-4934-b8a9-6b6a0aface41" direction="Return" isUnique="false">
+                  <elementDefinition Id="d4e1c118-877f-4c91-a98c-b191f09e1023" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="17a7462b-34be-4f7a-bba7-1f5d592fc858" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0a1000fb-a0d0-423c-a6bf-4fa3b612e883" name="Customer customer" direction="In" isUnique="false">
+                  <elementDefinition Id="8081c3a5-a059-4270-85d1-25d874ff28e6" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ec5a5689-f5d4-45e1-aa64-37ba39a18739" name="OpenBakery" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="baf6b01d-5d4b-4043-984a-673e777f836f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="72adc6a7-b9de-436c-b5bb-4b59d6e6cb28" direction="Return" isUnique="false">
+                  <elementDefinition Id="bda36418-affe-4b93-8031-78edca5900e4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="17a7462b-34be-4f7a-bba7-1f5d592fc858" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1936d2e7-6d7b-428e-9da2-7d119611b9fb" name="int cookiesToMake" direction="In" isUnique="false">
+                  <elementDefinition Id="47fe6003-75e8-4d56-97ec-c781a906d0cf" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fdc56220-d546-4d81-8c54-34aeb003784e" name="View" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="12bbdcae-374b-4d2d-b767-3f0820cbe314" />
+        <targetEnds>
+          <association Id="d3990515-8dee-4aae-88bc-93d1d0283dde" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8e62fca6-9ba0-429d-9689-217bfbcf4ae5" LastKnownName="Bakery" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9323b27c-044a-4011-8b94-9af35a4dba5b" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="79ce64ce-8f7d-4605-9a78-8eaad80e96de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ca76cbfd-6b94-4649-84bf-d2e9b5b3469f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f8eab99d-e18f-4ad3-bd18-4b8ac706a82e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f9d10ebe-f17c-425a-8eb3-cb29bb3ea452" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e813f0aa-9548-4c5d-b936-d819bd9b567c" name="Main" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="80cb41c8-2b5c-470a-b84e-fce07fc8593c" />
+        <ownedOperationsInternal>
+          <operation Id="b79ff545-3c07-4baf-b61c-100d37973a69" name="Main" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4d1cd7c4-b460-46a3-befd-d620fbe11c0d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="183d5b47-b36a-4aa4-9dd5-09d44581a22f" name="string args[]" direction="In" isUnique="false">
+                  <elementDefinition Id="e13c2553-ab46-489e-a5fa-3269f68dfeed" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e56604ff-57a5-46ca-94e5-4bc41dc693f1" direction="Return" isUnique="false">
+                  <elementDefinition Id="80f2f462-0f00-4217-bd6d-bd7b6ba1746c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="17a7462b-34be-4f7a-bba7-1f5d592fc858" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="f189aebf-e0fe-4e25-8e3d-7e2d61fa5395" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="618b21c3-2020-43d9-8f00-e01d2fd638ae" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="17a7462b-34be-4f7a-bba7-1f5d592fc858" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="8dd34ab0-4092-4c07-9c2f-57a5d531af03" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8727e084-f5c8-4407-93b8-bdb9980726c1" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="c9b8d1d1-e939-446b-8f6a-6f608ba3dded" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="aca8cfe8-8ef6-4fe9-87ac-021febc95717" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="ecfffbf3-5f23-4bab-ba25-4b235f9e3a3a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="d7d93a27-2e33-4056-b6a7-299c413892ca" name="ICookie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6383f4bb-d914-4abe-9701-6801b2854e78" />
+        <targetEnds>
+          <association Id="99a4685c-898b-48cc-88a0-e5a90b9d5eb5" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7f4b51d5-4d8d-40a2-981f-6551c02e3f95" LastKnownName="Cookie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e1e7dec7-1198-4c63-930c-ef9a9d368a79" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="507e1fe1-5b71-4110-8ac4-f44da187c819" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eb72dffc-9676-42bf-b5cd-f0fc0ba64a6a" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="468b0d83-a30f-4b32-966a-2ada4d85197e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b7208481-7cfe-4db6-aca1-bb199f22d25c" />
+          </association>
+          <association Id="94e37b56-919a-4027-a6e9-0476ff7527db" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8b473965-6b30-476c-9e9c-f5b949b04a03" LastKnownName="CookieDecorator" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="44317f4d-aa67-4dd7-b72b-95c0fa7d05e5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="51a002ce-5d1c-4625-a653-5a9fcadd5c27" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5b08d777-6464-4968-b933-be5063478d08" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="949eaa62-a2c5-4b0b-9e77-bb55af218816" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0d1abea0-fe41-45f6-970b-336a6738d708" />
+          </association>
+        </targetEnds>
+        <ownedOperations>
+          <operation Id="8cb12188-2a8a-4d64-a19c-613f54459133" name="CookieNumber" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="02aaf7ff-ba33-40b7-928f-333d79833f9f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="06233b13-d95c-4152-a595-835969bcbd80" direction="Return" isUnique="false">
+                  <elementDefinition Id="41bbe8e5-80c3-4df6-889c-1247a11aeea8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="aca8cfe8-8ef6-4fe9-87ac-021febc95717" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ff3a28d9-8750-42b1-8033-1edfb44c222d" name="ToString" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="81165d6e-d12c-465f-9ad3-a87690723522" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6eaa117c-1a3d-42bd-a188-890e9c89076e" direction="Return" isUnique="false">
+                  <elementDefinition Id="176d2745-4736-4928-8166-4aa278708873" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f189aebf-e0fe-4e25-8e3d-7e2d61fa5395" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8b473965-6b30-476c-9e9c-f5b949b04a03" name="CookieDecorator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fe284be3-995b-4ace-84c4-28900da54653" />
+        <generalsInternal>
+          <generalization Id="08e04b22-dbdd-4d0a-af54-f35fa827ab61" isSubstitutable="false">
+            <classMoniker Id="f6c04475-6a23-4de0-abb4-8b26668519a5" LastKnownName="BrandDecorator" />
+            <elementDefinition Id="84ee47d4-d466-45bc-9b8b-e6ee5e3a5065" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="c0280f5a-b56e-45a8-a56f-08f5ff429ad5" name="ICookie" isAbstract="false" isLeaf="false" cachedFullName="CookieBakeryDiagrams::ICookie">
+        <elementDefinition Id="6383f4bb-d914-4abe-9701-6801b2854e78" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="70147435-f933-4e1c-b864-60f503181c1f" name="CookieType" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3d51d97c-b7f0-447b-9785-38aebac29de9" />
+        <targetEnds>
+          <association Id="cac7e1a0-7569-4816-9b49-f0bb395bc9c8" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7f4b51d5-4d8d-40a2-981f-6551c02e3f95" LastKnownName="Cookie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="242d9d44-799b-4162-83b8-3d20268d563c" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="07c6568f-2ba9-42d5-b8d6-7e1acf11bc56" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae3beb50-d2d8-46bb-ab2b-ec134ef26fbb" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="306358d9-f6ad-45ca-baa2-4b8d949874f2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3ce550c0-c5fa-4c79-b63e-0d2fa61abcde" />
+          </association>
+        </targetEnds>
+        <ownedLiterals>
+          <enumerationLiteral Id="f24efe67-6a04-48ee-b2fb-c9537ddc1418" name="StrawBerry">
+            <elementDefinition Id="fdeae5ae-6dec-4617-a5ca-715ea6efa108" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="648d1859-cc9a-4c6b-9c25-781f991dae7e" name="Vanilla">
+            <elementDefinition Id="9861f03e-4d72-4bdb-a47d-b4ce6474ae0e" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="ab3bc963-10f7-4608-b2f2-f4549c710950" name="Chocolate">
+            <elementDefinition Id="9183a2da-529d-4419-8f1c-896a6bfb51f3" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f6c04475-6a23-4de0-abb4-8b26668519a5" name="BrandDecorator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fa7872fa-ebe5-44ff-81da-c78edb7e4c9d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="4a6aad48-18b9-474c-9633-dca833d8dd2f" name="CookieBakeryDiagrams">
+    <elementDefinition Id="edcaa60b-bf86-4344-9f84-5dc200c511c7" />
+    <profileInstances>
+      <packageHasProfileInstances Id="17d4c8e5-939e-4128-af29-78a5e4a002c7">
+        <profileInstance Id="391c9691-e65e-40db-b04f-6d5228395c14" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7544d698-8d79-4ada-9b5b-45d99e691993">
+        <profileInstance Id="4e85bd12-d1dd-4d1b-9703-fa83664ea392" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
